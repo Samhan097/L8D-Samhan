@@ -58,15 +58,15 @@ function Footer() {
           {/* Row 2 */}
           <Grid item xs={8} style={{marginTop:20}}>
             <Typography style={{marginBottom:20}}>Technologies We Use</Typography>
-            <img src="/home/sf.png" alt="sf"  style={{marginRight:40,width:30,height:30}}/>
-            <img src="/home/php.png" alt="php" style={{marginRight:40, marginBottom:5}}/>
-            <img src="/home/react.png" alt="react" style={{marginRight:40,width:30,height:30}} />
-            <img src="/home/v.png" alt="v" style={{marginRight:40,width:30,height:30}}/>
-            <img src="/home/vue.png" alt="vue" style={{marginRight:40,width:30,height:30}}/>
-            <img src="/home/u.png" alt="u" style={{marginRight:40,width:30,height:30}}/>
-            <img src="/home/wp.png" alt="wp" style={{marginRight:40,width:30,height:30}}/>
-            <img src="/home/woo.png" alt="woo" style={{marginRight:40,height:30}}/>
-            <img src="/home/js.png" alt="js" style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/sf.png" alt="sf"  style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/php.png" alt="php" style={{marginRight:40, marginBottom:5}}/>
+            <img src="/footer/react.png" alt="react" style={{marginRight:40,width:30,height:30}} />
+            <img src="/footer/v.png" alt="v" style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/vue.png" alt="vue" style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/u.png" alt="u" style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/wp.png" alt="wp" style={{marginRight:40,width:30,height:30}}/>
+            <img src="/footer/woo.png" alt="woo" style={{marginRight:40,height:30}}/>
+            <img src="/footer/js.png" alt="js" style={{marginRight:40,width:30,height:30}}/>
           </Grid>
           <Grid item xs={4}>
           <Paper style={{ padding: "5px", display: "flex", alignItems: "center",background:'#FFCC00',                justifyContent: "center",

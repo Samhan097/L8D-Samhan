@@ -3,10 +3,11 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Hidden from "@mui/material/Hidden";
+import { Link } from "react-router-dom";
 
 export default function AppBar2() {
   return (
-    <div className="appbar-2" style={{ background: "black" }}>
+    <div className="appbar-2" >
       <Toolbar className="toolbar-2">
         <Grid container alignItems="center" justifyContent="space-between">
           {/* Logo */}
@@ -27,6 +28,7 @@ export default function AppBar2() {
           <Grid item>
             <Hidden smDown>
               {/* Your existing buttons */}
+              <Link to="/" >
               <Button
                 color="primary"
                 size="small"
@@ -42,7 +44,7 @@ export default function AppBar2() {
               >
                 Home
               </Button>
-
+</Link>
               <Button
                 color="primary"
                 size="small"

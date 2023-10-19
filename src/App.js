@@ -1,21 +1,16 @@
-// src/App.js
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom"; // Import Link for navigation
 import Home from "./Home/Home";
+import Work from "./Work/Work";
 
 function App() {
   return (
-    <Router >
-
+    <Router>
       <div className="app">
-        {/* Set up routes with Routes */}
         <Routes>
-
-         
-          <Route path="/" element={ <Home />} />
-          
-
-        </Routes> 
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+        </Routes>
       </div>
     </Router>
   );

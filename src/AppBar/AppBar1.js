@@ -4,6 +4,7 @@ import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
 import Hidden from "@mui/material/Hidden";
 import "../App.css"
+import { Link } from "react-router-dom";
 
 export default function AppBar1() {
   return (
@@ -66,21 +67,23 @@ export default function AppBar1() {
 
           <Hidden smDown>
             <Grid item>
-              <Button
-                color="primary"
-                size="small"
-                style={{
-                  borderRadius: "50px",
-                  color: "black",
-                  borderColor: "none",
-                  margin: "0 15px",
-                  textTransform:"capitalize",
-                  fontWeight:"bold"
-                }}
-                className="work-button"
-              >
-                Work
-              </Button>
+            <Link to="/work"> {/* Use Link to navigate to the "Work" page */}
+                <Button
+                  color="primary"
+                  size="small"
+                  style={{
+                    borderRadius: "50px",
+                    color: "black",
+                    borderColor: "none",
+                    margin: "0 15px",
+                    textTransform: "capitalize",
+                    fontWeight: "bold",
+                  }}
+                  className="work-button"
+                >
+                  Work
+                </Button>
+              </Link>
             </Grid>
           </Hidden>
 
