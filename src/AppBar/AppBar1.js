@@ -27,6 +27,7 @@ export default function AppBar1() {
           {/* Menu Buttons */}
           <Hidden smDown>
             <Grid item>
+            <Link to="/" >
               <Button
                 color="primary"
                 size="small"
@@ -42,11 +43,13 @@ export default function AppBar1() {
               >
                 Home
               </Button>
+              </Link>
             </Grid>
           </Hidden>
 
           <Hidden smDown>
             <Grid item>
+            <Link to="/services"> {/* Use Link to navigate to the "Services" page */}
               <Button
                 color="primary"
                 size="small"
@@ -62,6 +65,7 @@ export default function AppBar1() {
               >
                 Services
               </Button>
+              </Link>
             </Grid>
           </Hidden>
 
@@ -89,6 +93,8 @@ export default function AppBar1() {
 
           <Hidden smDown>
             <Grid item>
+            <Link to="/about"> {/* Use Link to navigate to the "Blog" page */}
+
               <Button
                 color="primary"
                 size="small"
@@ -104,11 +110,13 @@ export default function AppBar1() {
               >
                 About
               </Button>
+              </Link>
             </Grid>
           </Hidden>
 
           <Hidden smDown>
             <Grid item>
+            <Link to="/blog"> {/* Use Link to navigate to the "Blog" page */}
               <Button
                 color="primary"
                 size="small"
@@ -124,11 +132,14 @@ export default function AppBar1() {
               >
                 Blog
               </Button>
+              </Link>
             </Grid>
           </Hidden>
 
           <Hidden smDown>
             <Grid item>
+            <Link to="/contact"> 
+
               <Button
                 color="primary"
                 size="small"
@@ -144,6 +155,8 @@ export default function AppBar1() {
               >
                 Contact
               </Button>
+              </Link>
+
             </Grid>
           </Hidden>
         </Grid>

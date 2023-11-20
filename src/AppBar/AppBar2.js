@@ -45,6 +45,7 @@ export default function AppBar2() {
                 Home
               </Button>
 </Link>
+              <Link to="/services">
               <Button
                 color="primary"
                 size="small"
@@ -60,7 +61,9 @@ export default function AppBar2() {
               >
                 Services
               </Button>
-
+              </Link>
+               {/* Use Link to navigate to the "Work" page */}
+              <Link to="/work">
               <Button
                 color="primary"
                 size="small"
@@ -76,7 +79,8 @@ export default function AppBar2() {
               >
                 Work
               </Button>
-
+</Link>
+            <Link to="/about"> 
               <Button
                 color="primary"
                 size="small"
@@ -92,7 +96,10 @@ export default function AppBar2() {
               >
                 About
               </Button>
+              </Link>
 
+{/* Use Link to navigate to the "Blog" page */}
+            <Link to="/blog"> 
               <Button
                 color="primary"
                 size="small"
@@ -105,10 +112,10 @@ export default function AppBar2() {
                   fontWeight: "bold",
                 }}
                 className="blog-button"
-              >
-                Blog
+              >Blog
               </Button>
-
+</Link>
+            <Link to="/contact"> 
               <Button
                 color="primary"
                 size="small"
@@ -124,6 +131,8 @@ export default function AppBar2() {
               >
                 Contact
               </Button>
+              </Link>
+
             </Hidden>
           </Grid>
 

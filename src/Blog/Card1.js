@@ -1,12 +1,12 @@
 import React from "react";
-import { Grid, Box, Typography } from "@mui/material";
+import { Grid, Box } from "@mui/material";
 import { OutboundRounded } from "@mui/icons-material";
 
-const CaseStudyBox = () => {
+const Card1 = () => {
   return (
     <Grid
       container
-      style={{ backgroundColor: "black" }}
+      style={{ backgroundColor: "" }}
       justifyContent="center"
     >
       <Grid item xs={6}>
@@ -17,43 +17,40 @@ const CaseStudyBox = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            color: "white",
+            color: "black",
             borderRight: "1px solid #DEDEDE", // Vertical divider
           }}
         >
           <Grid container>
             <Grid item xs={6}>
               {" "}
-              <Typography variant="body2" style={{ color: "#B8B8B8" }}>
+              <p  style={{ color: "#B8B8B8" }}>
                 Website Work
-              </Typography>
-              <Typography variant="h5" style={{ marginBottom: "5%" }}>
-                Apollo Website Design
-              </Typography>
-              <Typography variant="body2" style={{ color: "#FFFFFF80" }}>
+              </p>
+              <h2 style={{ marginBottom: "5%" }}>
+              Why Understanding Your Tools Is Essential
+              </h2>
+              <p  style={{ color: "#33333380" }}>
                 Level 8 Digital is a leading full-service omnichannel agency
                 building digital experiences for clients across the globe. Our
                 goal is to accelerate sales for our B2B and B2C clients by
                 delivering award-winning digital storefronts, solutions and
                 mobile apps.
-              </Typography>
+              </p>
               <Grid container style={{marginTop:'25%'}}>
               <Grid item xs={11}>
-              <Typography variant="h6" style={{ display: "flex", alignItems: "center" }}>
-                    View Case Study
+              <p  style={{ display: "flex", alignItems: "center" }}>
+              Schedule A Free Discovery Session
                     <OutboundRounded style={{ marginLeft: 20 }} />
-                  </Typography>
-              </Grid>
-              <Grid item xs={1}>
-                <Typography variant="h5" style={{color:'#FFFFFF66'}}>4/5</Typography>
+                  </p>
               </Grid>
             </Grid>
             </Grid>
             <Grid item xs={6}>
               {" "}
               <img
-                src="/work/img-5.png"
-                alt="im-5"
+                src="/home/img-7.png"
+                alt="im-7"
                 style={{ width: "80%", height: "auto", marginLeft: "15%" }}
               />
             </Grid>
@@ -68,50 +65,49 @@ const CaseStudyBox = () => {
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
-            color: "white",
+            color: "black",
           }}
         >
           <Grid container>
-            <Grid item xs={6}>
+          <Grid item xs={6}>
               {" "}
-              <Typography variant="body2" style={{ color: "#B8B8B8" }}>
+              <p  style={{ color: "#B8B8B8" }}>
                 Website Work
-              </Typography>
-              <Typography variant="h5" style={{ marginBottom: "5%" }}>
-                Apollo Website Design
-              </Typography>
-              <Typography variant="body2" style={{ color: "#FFFFFF80" }}>
+              </p>
+              <h2 style={{ marginBottom: "5%" }}>
+              Why Understanding Your Tools Is Essential
+              </h2>
+              <p  style={{ color: "#33333380" }}>
                 Level 8 Digital is a leading full-service omnichannel agency
                 building digital experiences for clients across the globe. Our
                 goal is to accelerate sales for our B2B and B2C clients by
                 delivering award-winning digital storefronts, solutions and
                 mobile apps.
-              </Typography>
+              </p>
               <Grid container style={{marginTop:'25%'}}>
               <Grid item xs={11}>
-              <Typography variant="h6" style={{ display: "flex", alignItems: "center" }}>
-                    View Case Study
+              <p  style={{ display: "flex", alignItems: "center" }}>
+              Schedule A Free Discovery Session
                     <OutboundRounded style={{ marginLeft: 20 }} />
-                  </Typography>
-              </Grid>
-              <Grid item xs={1}>
-                <Typography variant="h5" style={{color:'#FFFFFF66'}}>5/5</Typography>
+                  </p>
               </Grid>
             </Grid>
             </Grid>
             <Grid item xs={6}>
              
               <img
-                src="/work/img-6.png"
-                alt="img-6"
+                src="/home/img-7.png"
+                alt="img-7"
                 style={{ width: "80%", height: "auto", marginLeft: "15%" }}
               />
             </Grid>
           </Grid>
         </Box>
       </Grid>
+      <hr width='95%' style={{marginTop:60,borderColor:'#DEDEDE30'}} />
+
     </Grid>
   );
 };
 
-export default CaseStudyBox;
+export default Card1;
